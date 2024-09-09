@@ -1,0 +1,103 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0px;
+    font-size: 1.5vw;
+}
+
+#logo {
+    margin: 0px;
+    padding: 20px;
+    font-family: Georgia, serif;
+    width: 10%;
+}
+
+ul {
+    margin: 0px;
+}
+
+body > header {
+    background-color: rgb(162, 209, 166);
+    color: #ffffff;
+    display: flex;
+    height: 20vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#nav-ul {
+    display: flex;
+    font-family: "Homemade Apple";
+}
+
+#nav-ul > li {
+    padding: 8px;
+    margin: 16px;
+}
+
+body > header > nav > ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbutton {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 12px;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 0%;
+    font-family: "Homemade Apple";
+}
+
+body > main article {
+    width: 80%;
+    margin: auto;
+}
+
+#main-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+#main-content > div {
+    width: 70%;
+}
+
+form {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+body > main > div > aside > section > h4 {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body > footer {
+    background-color: rgb(162, 209, 166);
+    display: flex;
+}
+
+img {
+    border-radius: 0%;
+}
+
+#footer-ul {
+    display: flex;
+    list-style: none;
+}
+
+#footer-ul > div > li {
+    margin-left: 12px;
+}
+
+#footer-ul > div > li > a {
+    color: white;
+    text-decoration: none;
+}
+
+footer > h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
